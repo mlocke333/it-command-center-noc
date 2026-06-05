@@ -1,0 +1,6 @@
+**/node_modules
+**/.env
+**/local.settings.json
+.git
+.github
+*.md

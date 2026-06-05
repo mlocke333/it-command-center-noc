@@ -1,0 +1,20 @@
+{
+  "name": "it-command-center-noc",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A dense NOC wall-display for MSP operations — live tenant health matrix, status-lit KPIs, and a streaming alert feed with auto-refresh.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}

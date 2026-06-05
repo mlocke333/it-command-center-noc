@@ -1,0 +1,14 @@
+{
+  "name": "command-center-api",
+  "version": "0.1.0",
+  "description": "Azure Functions API for the NOC Command Center — aggregates Graph/Intune/Defender/Meraki/N-sight server-side.",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/identity": "^4.4.1",
+    "@azure/keyvault-secrets": "^4.8.0"
+  }
+}
